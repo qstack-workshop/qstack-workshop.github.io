@@ -4,6 +4,7 @@ Welcome to the **qStack: International Workshop on Quantum Systems**. This works
 
 ## Overview
 As quantum hardware scales up, the software stack becomes increasingly critical. This workshop aims to explore:
+
 - Quantum Operating Systems
 - Quantum Cloud Orchestration
 - High-Performance Computing (HPC) Integration and Hybrid Systems
