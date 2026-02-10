@@ -349,6 +349,13 @@ ul {
     color: #555;
 }
 
+.chair-label {
+    color: var(--accent-color);
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: 500;
+}
+
 
 /* Program Schedule */
 .schedule-day {
