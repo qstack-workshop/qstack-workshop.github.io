@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qStack Workshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">qStack Workshop</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#past-editions">Past Editions</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">qStack: International Workshop on Quantum Software Systems</h1>
+            <p class="hero-subtitle">September 29, 2026 &bull; Prague, Czech Republic</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- About Section (Loaded from Markdown) -->
+        <section id="about" class="section">
+            <!-- Content will be injected here by script.js -->
+            <div id="about-content">Loading content...</div>
+        </section>
+
+        <!-- Registration Section -->
+        <section id="registration" class="section">
+            <h2>Registration</h2>
+            <div class="card">
+                <p>Registration details will be announced soon, offering both early-bird and full pricing options.</p>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <strong>Early Bird</strong>
+                        <span>Until July 31, 2026</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Regular</strong>
+                        <span>From August 1 2026</span>
+                    </div>
+                </div>
+                <button class="btn-primary" onclick="alert('Registration link coming soon!')">Register Now</button>
+            </div>
+        </section>
+
+        <!-- Organizers Section -->
+        <section id="organizers" class="section">
+            <h2>Organizers</h2>
+
+            <div class="chair-container">
+                <div class="organizer-card chair-card">
+                    <div class="chair-badge">
+                        <h3>Workshop Chair</h3>
+                    </div>
+                    <a href="https://manosgior.github.io/" target="_blank">
+                        <img src="assets/organizer1.jpg" alt="Emmanouil (Manos) Giortamis" class="organizer-img"
+                            onerror="this.src='assets/giortamis.jpeg'">
+                    </a>
+                    <h3><a href="https://manosgior.github.io/" target="_blank">Emmanouil
+                            (Manos) Giortamis</a></h3>
+                    <p>TU Munich</p>
+                </div>
+            </div>
+
+            <div class="committee-container">
+                <h3>Organizing Committee</h3>
+                <div class="committee-box">
+                    <table class="simple-table">
+                        <tbody>
+                            <tr>
+                                <td><strong>Antonio Barbalace</strong></td>
+                                <td>University of Edinburgh</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pramod Bhatotia</strong></td>
+                                <td>TU Munich</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Poulami Das</strong></td>
+                                <td>University of Texas at Austin</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Ronghui Gu</strong></td>
+                                <td>Columbia University</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Prakash Murali</strong></td>
+                                <td>Cambridge University</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Prashant Nair</strong></td>
+                                <td>University of British Columbia</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tirthak Patel</strong></td>
+                                <td>Rice University</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Gokul Subramanian Ravi</strong></td>
+                                <td>University of Michigan</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Swamit Tannu</strong></td>
+                                <td>University of Wisconsin-Madison</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Runzhou Tao</strong></td>
+                                <td>University of Maryland, College Park</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Devesh Tiwari</strong></td>
+                                <td>Northeastern University</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Charles Yuan</strong></td>
+                                <td>University of Wisconsin-Madison</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program Section -->
+        <section id="program" class="section">
+            <h2>Program</h2>
+            <div class="program-schedule">
+                <div class="schedule-day">
+                    <h3>Day 1 - September 29</h3>
+                    <ul class="schedule-list">
+                        <li><span class="time">09:00</span> <span class="event">Welcome & Keynote</span></li>
+                    </ul>
+                </div>
+                <!-- Add more days as needed -->
+            </div>
+        </section>
+
+        <!-- Past Editions Section -->
+        <section id="past-editions" class="section">
+            <h2>Past Editions</h2>
+            <div class="past-editions-list">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 qStack Workshop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
