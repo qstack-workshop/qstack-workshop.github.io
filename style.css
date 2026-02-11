@@ -436,8 +436,38 @@ ul {
     background: var(--primary-color);
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0 40px;
     margin-top: 60px;
+}
+
+.footer-logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    color: var(--light-text);
+}
+
+.footer-logo {
+    height: 60px;
+    width: auto;
+    /* Make the logo white to blend with the dark footer */
+    filter: brightness(0) invert(1) opacity(0.9);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.footer-logo:hover {
+    /* Restore original colors on hover */
+    filter: none;
+    transform: scale(1.05);
 }
 
 /* Responsive */

@@ -16,4 +16,7 @@ As quantum hardware scales up, the software stack becomes increasingly critical.
 We invite submissions and participation from the entire community.
 
 ## Call for Participation
-We are looking for posters and talks! Please see the [Registration](#registration) section for more details.
+We are looking for keynotes and talks! Please see the [Registration](#registration) section for more details.
+
+###
+This workshop is supported by the Bavarian State Ministry of Science and the Arts as part of the Munich Quantum Valley (MQV), grant number 6090181.
