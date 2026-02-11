@@ -189,6 +189,13 @@ ul {
     color: var(--primary-color);
 }
 
+#about-content h3 {
+    font-size: 1.3rem;
+    /* Slightly smaller than h2 but distinct */
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
 #about-content p {
     margin-bottom: 1em;
     font-size: 1.05rem;
@@ -457,7 +464,7 @@ ul {
 }
 
 .footer-logo {
-    height: 60px;
+    height: 80px;
     width: auto;
     /* Make the logo white to blend with the dark footer */
     filter: brightness(0) invert(1) opacity(0.9);
