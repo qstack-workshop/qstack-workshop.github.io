@@ -18,5 +18,5 @@ We invite submissions and participation from the entire community.
 ## Call for Participation
 We are looking for keynotes and talks! Please see the [Registration](#registration) section for more details.
 
-###
+### Funding
 This workshop is supported by the Bavarian State Ministry of Science and the Arts as part of the Munich Quantum Valley (MQV), grant number 6090181.
