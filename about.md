@@ -10,7 +10,7 @@ As quantum hardware scales up, the software stack becomes increasingly critical.
 - High-Performance Computing (HPC) Integration and Hybrid Systems
 - Compilers, Programming Languages, and Formal Verification for Quantum Computing
 - Distributed Quantum Computing (DQC) and Quantum Error Correction (QEC)
-- Quantum Networking and Quantum Internet — including entanglement distribution, quantum repeaters, and network stack design for multi-node quantum systems
+- Quantum Networking and Quantum Internet — network stack design for multi-node quantum systems
 - Micro-architectures and Real-time Quantum Control
 - Quantum Architecture Design 
 
