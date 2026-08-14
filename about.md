@@ -1,5 +1,7 @@
 # About the Workshop
 
+> 📍 qStack 2026 is co-located with **[SOSP 2026](https://sigops.org/s/conferences/sosp/2026/index.html)** — the 31st ACM Symposium on Operating Systems Principles — and takes place on the workshop day, September 29, 2026, in Prague, Czech Republic. [Registration](https://sigops.org/s/conferences/sosp/2026/index.html#registration) is handled through SOSP.
+
 Welcome to the **qStack: International Workshop on Quantum Systems**. This workshop brings together researchers and practitioners to discuss the future of quantum computing stacks, from hardware to software and applications. We aim to bridge the gap between diverse disciplines—including computer architecture, high-performance computing (HPC), operating systems, networking, and programming languages—uniting them under a shared community dedicated to advancing quantum computing.
 
 ## Overview

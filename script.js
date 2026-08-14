@@ -13,6 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(markdown => {
             // Use marked.js to parse markdown
             aboutContentDiv.innerHTML = marked.parse(markdown);
+
+            // Open external links (e.g. SOSP) in a new tab
+            aboutContentDiv.querySelectorAll('a[href^="http"]').forEach(link => {
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+            });
         })
         .catch(error => {
             console.error('Error loading markdown:', error);

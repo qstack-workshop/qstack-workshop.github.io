@@ -211,6 +211,27 @@ ul {
     margin-bottom: 0.5em;
 }
 
+#about-content a {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+#about-content a:hover {
+    text-decoration: underline;
+}
+
+#about-content blockquote {
+    margin: 0 0 1.5em;
+    padding: 18px 25px;
+    background: #f1f5f9;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+}
+
+#about-content blockquote p {
+    margin: 0;
+}
+
 /* Registration Card */
 .card {
     background: white;
@@ -239,6 +260,7 @@ ul {
 }
 
 .btn-primary {
+    display: inline-block;
     background-color: var(--accent-color);
     color: white;
     padding: 12px 30px;
@@ -375,6 +397,12 @@ ul {
 
 
 /* Program Schedule */
+.section-note {
+    text-align: center;
+    color: #555;
+    margin: -15px 0 30px;
+}
+
 .schedule-day {
     background: white;
     border-radius: 12px;
@@ -408,11 +436,35 @@ ul {
 .schedule-list .time {
     font-weight: 600;
     color: var(--accent-color);
-    width: 80px;
+    width: 130px;
     flex-shrink: 0;
+    white-space: nowrap;
 }
 
 .schedule-list .event {
+    font-weight: 500;
+}
+
+.schedule-break {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    background: #f1f5f9;
+    border-radius: 12px;
+    border: 1px dashed #d5dde5;
+    color: #555;
+}
+
+.schedule-break .time {
+    font-weight: 600;
+    color: var(--accent-color);
+    width: 130px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.schedule-break .event {
     font-weight: 500;
 }
 
