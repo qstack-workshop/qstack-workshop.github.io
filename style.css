@@ -445,6 +445,113 @@ ul {
     font-weight: 500;
 }
 
+/* Expandable talks (abstract + bio) */
+.schedule-list li.talk-item {
+    display: block;
+    padding: 0;
+}
+
+.talk summary {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+    cursor: pointer;
+    list-style: none;
+}
+
+.talk summary::-webkit-details-marker {
+    display: none;
+}
+
+.talk summary:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+.talk summary .event {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.talk-title {
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: color 0.2s;
+}
+
+.talk-speaker {
+    font-weight: 400;
+    color: #555;
+}
+
+/* Chevron */
+.talk summary::after {
+    content: "";
+    flex-shrink: 0;
+    width: 8px;
+    height: 8px;
+    margin: 6px 6px 0 20px;
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
+    transform: rotate(45deg);
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.talk[open] summary::after {
+    margin-top: 11px;
+    transform: rotate(-135deg);
+}
+
+.talk summary:hover .talk-title {
+    color: var(--accent-color);
+}
+
+.talk summary:hover::after {
+    border-color: var(--accent-color);
+}
+
+.talk-details {
+    margin: 0 0 20px 130px;
+    padding: 20px 25px;
+    background: #f8fafc;
+    border-left: 3px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+    color: #444;
+    font-size: 0.97rem;
+}
+
+.talk-details h4 {
+    margin: 0 0 6px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
+
+.talk-details h4:not(:first-child) {
+    margin-top: 18px;
+}
+
+.talk-details p {
+    margin: 0 0 12px;
+}
+
+.talk-details p:last-child {
+    margin-bottom: 0;
+}
+
+.talk-details a {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.talk-details a:hover {
+    text-decoration: underline;
+}
+
 .schedule-break {
     display: flex;
     align-items: center;
@@ -546,5 +653,9 @@ ul {
 
     .committees-grid {
         grid-template-columns: 1fr;
+    }
+
+    .talk-details {
+        margin-left: 0;
     }
 }
